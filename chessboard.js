@@ -3,12 +3,8 @@ var makeLine = function (nBound, offset) {
   var output = "";
   offset = Number(Boolean(offset));
   for ( var i = 0 ; i < nBound ; i++ ) {
-    if ( (i+offset) % 2 == 0 ) {
-      output += "#";
-    }
-    else {
-      output += " ";
-    }
+    ( ( i+offset ) % 2 == 0 ) ?
+      ( output += "#" ) : ( output += " " )
   }
 return (output + "\n");
 }
