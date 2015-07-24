@@ -17,7 +17,7 @@ return (output + "\n");
 var chessBoard = function (nBound) {
   var output = "";
   for ( var i = 1 ; i <= nBound ; i++ ) {
-    output += makeLine(nBound, (i % 2));
+    output += makeLine(nBound, (i % 2)); // i can't even.
   }
 return output;
 }
