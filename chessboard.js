@@ -4,7 +4,7 @@ var makeLine = function (nBound, offset) {
   offset = Number(Boolean(offset));
   for ( var i = 0 ; i < nBound ; i++ ) {
     ( ( i+offset ) % 2 == 0 ) ?
-      ( output += "#" ) : ( output += " " )
+    ( output += "#" ) : ( output += " " )
   }
 return (output + "\n");
 }
