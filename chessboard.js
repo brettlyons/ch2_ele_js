@@ -17,5 +17,5 @@ var chessBoard = function (nBound) {
   }
 return output;
 }
-var size = 8;
+var size = 12;
 console.log(chessBoard(size));
