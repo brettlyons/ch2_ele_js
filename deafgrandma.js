@@ -1,13 +1,10 @@
 var input = prompt("Say something to your deaf grandma.");
 
-
-output = ""
+var returnLoud = true;
 for (idx in input) {
-  if (input[idx] = input[idx].toUpperCase()) {
+  if (input[idx] == input[idx].toUpperCase()) {
+//    console.log(input[idx] + " " + input[idx].toUpperCase());
     returnLoud = false;
-  }
-  else {
-    returnLoud = true;
   }
 }
 if (returnLoud) {
